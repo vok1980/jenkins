@@ -12,7 +12,8 @@ RUN /usr/local/bin/install-plugins.sh 	ssh-steps
 RUN /usr/local/bin/install-plugins.sh 	blueocean
 RUN /usr/local/bin/install-plugins.sh 	blueocean-git-pipeline
 
-RUN /usr/local/bin/install-plugins.sh 	ssh-slaves               # SSH Slaves
 RUN /usr/local/bin/install-plugins.sh 	gradle
 RUN /usr/local/bin/install-plugins.sh 	pipeline-github-lib      # Pipeline: GitHub Groovy Libraries
 RUN /usr/local/bin/install-plugins.sh 	workflow-cps-global-lib  # Pipeline: Shared Groovy Libraries
+
+RUN /usr/local/bin/install-plugins.sh 	jdk-tool ssh-slaves
