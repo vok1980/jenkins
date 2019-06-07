@@ -8,3 +8,6 @@ RUN /usr/local/bin/install-plugins.sh 	pipeline-stage-view
 RUN /usr/local/bin/install-plugins.sh 	timestamper
 RUN /usr/local/bin/install-plugins.sh 	pipeline-utility-steps
 RUN /usr/local/bin/install-plugins.sh 	workflow-aggregator
+RUN /usr/local/bin/install-plugins.sh 	ssh-steps
+RUN /usr/local/bin/install-plugins.sh 	blueocean
+RUN /usr/local/bin/install-plugins.sh 	blueocean-git-pipeline
