@@ -44,6 +44,3 @@ RUN /usr/local/bin/install-plugins.sh 	workflow-cps-global-lib
 
 # This plugin allows you to manage agents running on *nix machines over SSH.
 RUN /usr/local/bin/install-plugins.sh 	jdk-tool ssh-slaves
-
-# This plugin puts custom rich text message to the Build pages and Job main page (for last build).
-RUN /usr/local/bin/install-plugins.sh 	rich-text-publisher-plugin
