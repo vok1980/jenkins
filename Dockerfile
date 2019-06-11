@@ -30,8 +30,8 @@ RUN /usr/local/bin/install-plugins.sh 	jdk-tool ssh-slaves
 # This plugin allows use of Git as a build SCM, including repository browsers for several providers.
 RUN /usr/local/bin/install-plugins.sh 	git
 
-# Jenkins pipeline steps which provides SSH facilities such as command execution or file transfer for continuous delivery.
-RUN /usr/local/bin/install-plugins.sh 	ssh-steps
+# This plugin keeps the actual job in the queue if at least one name of currently running jobs is matching with one of the given regular expressions.
+RUN /usr/local/bin/install-plugins.sh 	build-blocker-plugin
 
 # Enable timestamps within the "Build Environment" section of the build's configuration page.
 RUN /usr/local/bin/install-plugins.sh 	timestamper
@@ -52,3 +52,6 @@ RUN /usr/local/bin/install-plugins.sh 	docker-slaves
 
 # This plugin makes it possible to invoke a Gradle build script as the main build step.
 RUN /usr/local/bin/install-plugins.sh 	gradle
+
+# Jenkins pipeline steps which provides SSH facilities such as command execution or file transfer for continuous delivery.
+RUN /usr/local/bin/install-plugins.sh 	ssh-steps
