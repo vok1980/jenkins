@@ -24,6 +24,9 @@ RUN /usr/local/bin/install-plugins.sh 	pipeline-utility-steps
 # A suite of plugins that lets you orchestrate automation, simple or complex.
 RUN /usr/local/bin/install-plugins.sh 	workflow-aggregator
 
+# Enhances Pipeline plugin to handle branches better by automatically grouping builds from different branches.
+RUN /usr/local/bin/install-plugins.sh 	workflow-multibranch
+
 # Jenkins pipeline steps which provides SSH facilities such as command execution or file transfer for continuous delivery.
 RUN /usr/local/bin/install-plugins.sh 	ssh-steps
 
