@@ -55,3 +55,6 @@ RUN /usr/local/bin/install-plugins.sh 	gradle
 
 # Jenkins pipeline steps which provides SSH facilities such as command execution or file transfer for continuous delivery.
 RUN /usr/local/bin/install-plugins.sh 	ssh-steps
+
+# This plugin is a build trigger that allows GitLab to trigger Jenkins builds when code is pushed or a merge request is created.
+RUN /usr/local/bin/install-plugins.sh 	gitlab-plugin
