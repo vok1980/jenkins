@@ -1,0 +1,62 @@
+# A suite of plugins that lets you orchestrate automation, simple or complex.
+workflow-aggregator:600.vb_57cdd26fdd7
+
+# Enhances Pipeline plugin to handle branches better by automatically grouping builds from different branches.
+workflow-multibranch:795.ve0cb_1f45ca_9a_
+
+# Pipeline: Stage View
+pipeline-stage-view:2.34
+
+# Small, miscellaneous, cross platform utility steps for Pipeline Plugin jobs
+pipeline-utility-steps:2.18.0
+
+# Blue Ocean
+blueocean:1.27.16
+
+# Git Pipeline for Blue Ocean
+blueocean-git-pipeline:1.27.16
+
+# Pipeline: GitHub Groovy Libraries
+pipeline-github-lib:61.v629f2cc41d83
+
+# Pipeline: Shared Groovy Libraries
+####workflow-cps-global-lib
+pipeline-groovy-lib:749.v70084559234a_
+
+# This plugin allows you to manage agents running on *nix machines over SSH.
+jdk-tool:80.v8a_dee33ed6f0
+
+# Allows to launch agents over SSH, using a Java implementation of the SSH protocol.
+ssh-slaves:3.1021.va_cc11b_de26a_e
+
+# This plugin allows use of Git as a build SCM, including repository browsers for several providers.
+git:5.7.0
+
+# This plugin keeps the actual job in the queue if at least one name of currently running jobs is matching with one of the given regular expressions.
+build-blocker-plugin:166.vc82fc20b_a_ed6
+
+# Enable timestamps within the "Build Environment" section of the build's configuration page.
+timestamper:1.28
+
+# This plugin makes it possible to publish the test results of an execution of a testing tool in Jenkins.
+xunit:3.1.5
+
+# This plugin allows you to configure every aspect of email notifications.
+email-ext:1866.v14fa_6d201654
+
+
+
+# This plugin can be used to build cmake based projects within Jenkins.
+cmakebuilder:4.1.1
+
+# Docker Slaves # Use Containers to setup build agents, without any constraint on images you can use.
+docker-slaves:1.0.7
+
+# This plugin makes it possible to invoke a Gradle build script as the main build step.
+gradle:2.14
+
+# Jenkins pipeline steps which provides SSH facilities such as command execution or file transfer for continuous delivery.
+ssh-steps:2.0.68.va_d21a_12a_6476
+
+# This plugin is a build trigger that allows GitLab to trigger Jenkins builds when code is pushed or a merge request is created.
+gitlab-plugin:1.9.6
